@@ -1,0 +1,6 @@
+---
+deployment:
+    tasks:
+        - export DEPLOYPATH=/home2/wheke/public_html/
+        - export REPOPATH=/home2/wheke/repositories/vue4/dist
+        - /bin/cp -R $REPOPATH $DEPLOYPATH
